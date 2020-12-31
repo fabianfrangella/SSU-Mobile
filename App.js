@@ -5,8 +5,6 @@
  * @format
  * @flow strict-local
  */
-
-import { config } from 'dotenv/types';
 import React from 'react';
 import {
   SafeAreaView,
@@ -24,8 +22,6 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-
-config()
 
 const App: () => React$Node = () => {
   return (
