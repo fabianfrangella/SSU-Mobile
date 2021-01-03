@@ -1,6 +1,6 @@
 import React from 'react';
 import StepIndicator from 'react-native-step-indicator';
-
+const colorUnq = "linear-gradient(45deg, rgba(119,0,0,1) 0%, rgb(185,28,0) 100%)"
 const Stepper = () => {
     const labels = ["Selecciona tu universidad","Selecciona tu carrera","Comenza a trackear tu progreso!"];
     const customStyles = {
@@ -8,23 +8,23 @@ const Stepper = () => {
       currentStepIndicatorSize:30,
       separatorStrokeWidth: 2,
       currentStepStrokeWidth: 3,
-      stepStrokeCurrentColor: '#fe7013',
+      stepStrokeCurrentColor: colorUnq,
       stepStrokeWidth: 3,
-      stepStrokeFinishedColor: '#fe7013',
-      stepStrokeUnFinishedColor: '#fe7013',
-      separatorFinishedColor: '#fe7013',
-      separatorUnFinishedColor: '#fe7013',
-      stepIndicatorFinishedColor: '#fe7013',
+      stepStrokeFinishedColor: colorUnq,
+      stepStrokeUnFinishedColor: colorUnq,
+      separatorFinishedColor: colorUnq,
+      separatorUnFinishedColor: colorUnq,
+      stepIndicatorFinishedColor: colorUnq,
       stepIndicatorUnFinishedColor: '#ffffff',
       stepIndicatorCurrentColor: '#ffffff',
       stepIndicatorLabelFontSize: 10,
       currentStepIndicatorLabelFontSize: 10,
-      stepIndicatorLabelCurrentColor: '#fe7013',
-      stepIndicatorLabelFinishedColor: '#fe7013',
-      stepIndicatorLabelUnFinishedColor: '#fe7013',
-      labelColor: '#999999',
+      stepIndicatorLabelCurrentColor: colorUnq,
+      stepIndicatorLabelFinishedColor: colorUnq,
+      stepIndicatorLabelUnFinishedColor: colorUnq,
+      labelColor: colorUnq,
       labelSize: 13,
-      currentStepLabelColor: '#fe7013',
+      currentStepLabelColor: colorUnq,
       marginBottom: 20
     }
     return (

@@ -4,7 +4,7 @@ export const styles = StyleSheet.create({
       flex: 1,
       justifyContent: "center",
       alignItems: "center",
-      marginTop: 22
+      marginTop: 22,
     },
     scrollView: {
       backgroundColor: 'white',
@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
       textAlign: "center"
     },
     openButton: {
-      backgroundColor: "#fe7013",
+      backgroundColor: "linear-gradient(45deg, rgba(119,0,0,1) 0%, rgb(185,28,0) 100%)",
       borderRadius: 20,
       padding: 10,
       elevation: 2

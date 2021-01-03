@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
       elevation: 5
     },
     openButton: {
-      backgroundColor: "#fe7013",
+      backgroundColor: "linear-gradient(45deg, rgba(119,0,0,1) 0%, rgb(185,28,0) 100%)",
       borderRadius: 20,
       padding: 10,
       elevation: 2
