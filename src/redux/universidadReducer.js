@@ -1,5 +1,6 @@
 const initialState = {
-    universidad: {text: "Universidad Nacional de Quilmes", carreras: ["TPI", "Biotecnología"]}
+    universidad: {text: "Universidad Nacional de Quilmes", 
+    carreras: ["TPI", "Biotecnología"]}
 }
 
 const ssu_reducer = (state = initialState, action) => {
