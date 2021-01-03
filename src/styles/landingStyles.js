@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import {constants} from '../styles/constants';
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
@@ -24,7 +25,7 @@ export const styles = StyleSheet.create({
       textAlign: "center"
     },
     openButton: {
-      backgroundColor: "linear-gradient(45deg, rgba(119,0,0,1) 0%, rgb(185,28,0) 100%)",
+      backgroundColor: constants.colors.unq,
       borderRadius: 20,
       padding: 10,
       elevation: 2

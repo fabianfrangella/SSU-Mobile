@@ -1,6 +1,7 @@
 import React from 'react';
 import StepIndicator from 'react-native-step-indicator';
-const colorUnq = "linear-gradient(45deg, rgba(119,0,0,1) 0%, rgb(185,28,0) 100%)"
+import {constants} from '../styles/constants'
+const colorUnq = constants.colors.unq
 const Stepper = () => {
     const labels = ["Selecciona tu universidad","Selecciona tu carrera","Comenza a trackear tu progreso!"];
     const customStyles = {
