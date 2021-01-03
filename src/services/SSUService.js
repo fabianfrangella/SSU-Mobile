@@ -1,11 +1,10 @@
-import HttpClient from "./HttpClient";
+
+import HttpClientFactory from "./HttpClientFactory";
 import { properties } from "./properties";
-import SSUClient from "./SSUClient";
 
 export default class SSUService {
     constructor() {
-        // TODO Dependency injection
-        this.http = new SSUClient()
+        this.http = HttpClientFactory.getHttpClient(process.env.SSU_URL)
     }
 
     async findDegreeDetails(degreeName) {
