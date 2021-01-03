@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, SafeAreaView, ScrollView } from 'react-native';
 import Stepper from '../components/Stepper';
-import ModalSelector from '../components/ModalSelector';
+import UniversidadSelector from '../components/UniversidadSelector';
+import CarreraSelector from '../components/CarreraSelector';
 
-const LandingPage = () => {
-  const universidades = [{text: "Universidad Nacional de Quilmes" }, {text: "Universidad de Buenos Aires"}, {text: "Universidad Nacional de La Plata"}]
+const LandingPage = (props) => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
@@ -15,7 +15,9 @@ const LandingPage = () => {
             Sistema de seguimiento universitario
         </Text>
         <Stepper/>
-        <ModalSelector items={universidades} title= "Selecciona tu universidad"/>
+        <UniversidadSelector title= "Seleccioná tu universidad"/>
+        <CarreraSelector title= "Seleccioná tu carrera"/>
+        
       </ScrollView>
     </SafeAreaView>
   );

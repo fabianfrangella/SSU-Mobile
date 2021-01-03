@@ -11,11 +11,15 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import LandingPage from './src/views/LandingPage';
 
+import { Provider } from "react-redux";
+import { store } from "./src/redux/store"
 
 const App: () => React$Node = () => {
   return (
     <>
+    <Provider store={store} >
         <LandingPage/>
+    </Provider>
     </>
   );
 };
