@@ -4,7 +4,7 @@ import Stepper from '../components/Stepper';
 import ModalSelector from '../components/ModalSelector';
 
 const LandingPage = () => {
-  const universidades = [{text: "Universidad Nacional de Quilmes" }, {text: "Uba"}]
+  const universidades = [{text: "Universidad Nacional de Quilmes" }, {text: "Universidad de Buenos Aires"}, {text: "Universidad Nacional de La Plata"}]
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
