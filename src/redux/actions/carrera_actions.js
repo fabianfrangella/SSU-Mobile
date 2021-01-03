@@ -1,7 +1,7 @@
-const select_carrera = (universidad) => {
+const select_carrera = (carrera) => {
     return {
         type: "select_carrera",
-        universidad
+        carrera
     }
 }
 
